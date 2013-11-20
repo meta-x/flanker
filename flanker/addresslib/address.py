@@ -103,7 +103,7 @@ def parse_list(address_list, strict=False, as_tuple=False, metrics=False):
 
     The Parser operates in strict or relaxed modes. In strict mode the parser
     will quit at the first occurrence of error, in relaxed mode the parser
-    will attempt to seek to to known valid location and continue parsing.
+    will attempt to seek a known valid location and continue parsing.
 
     The parser can return a list of parsed addresses or a tuple containing
     the parsed and unparsed portions. The parser also returns the parsing
