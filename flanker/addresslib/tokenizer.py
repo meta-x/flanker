@@ -78,7 +78,7 @@ class TokenStream(object):
     stream can be used to consume tokens, peek ahead, and synchonize to a
     delimiter token.
 
-    When the strem reaches its end, the position is placed
+    When the stream reaches its end, the position is placed
     at one plus the position of the last token.
     '''
     def __init__(self, stream):
